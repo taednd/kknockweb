@@ -7,7 +7,6 @@ $result = mysqli_query($connect, $query);
 $rows = mysqli_fetch_assoc($result);
 $views = "UPDATE board set views = views + 1 where no = $number";
 $connect->query($views);
-$board_id = $_SESSION['userid'];
 ?>
 <!DOCTYPE html>
 <html lang="ko">
