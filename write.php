@@ -38,12 +38,12 @@ if(!isset($_SESSION['userid'])) {
 
                         <tr>
                             <td>제목</td>
-                            <td><input type=text name="title" size=60></td>
+                            <td><input type=text name="title" size=60 required></td>
                         </tr>
 
                         <tr>
                             <td>내용</td>
-                            <td><textarea name="content" cols=85 rows=15></textarea></td>
+                            <td><textarea name="content" cols=85 rows=15 required></textarea></td>
                         </tr>
                         <tr>
                             <td>파일첨부</td>
